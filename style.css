@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 90;
+}
+.hero,
+footer,
+header,
+a {
+	background-color: #1f2937;
+	color: #f9faf8;
+}
+h1 {
+	font-size: 24px;
+}
+a {
+	text-decoration: none;
+	color: #e5e7eb;
+}
+li {
+	list-style-type: none;
+	color: #e5e7eb;
+}
+header div {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+ul {
+	display: flex;
+	gap: 20px;
+	padding: 0;
+	align-items: center;
+}
+
+.quote {
+	background-color: #e5e7eb;
+}
+
+.signup {
+	background-color: #3882f6;
+	color: #f9faf8;
+}
+
+.maintxt {
+	font-size: 48px;
+	font-weight: bolder;
+}
+
+.subtxt {
+	font-size: 18px;
+	color: #e5e7eb;
+}
