@@ -153,8 +153,9 @@ footer {
 }
 .quote2 {
 	text-align: end;
-	padding: 0 200px 200px;
+	padding: 0 200px 100px;
 	font-weight: bolder;
+	font-size: 25px;
 }
 
 footer {
