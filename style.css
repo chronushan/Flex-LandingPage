@@ -97,3 +97,41 @@ footer {
 	justify-content: center;
 	align-content: center;
 }
+
+.mid1 > p {
+	font-size: 36px;
+	font-weight: 800;
+	color: #1f2937;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.cards {
+	display: flex;
+	flex-direction: column;
+}
+
+#cards {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+	margin-top: 50px;
+}
+.card {
+	width: 200px;
+	height: 200px;
+	border: #3882f6 solid 5px;
+	border-radius: 20px;
+}
+
+.description {
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+}
+.description p {
+	width: 200px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 150px;
+}
