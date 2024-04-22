@@ -23,7 +23,7 @@ li {
 .header {
 	display: flex;
 	justify-content: space-between;
-	padding: 15px 20px;
+	padding: 15px 150px;
 }
 ul {
 	display: flex;
@@ -122,16 +122,64 @@ footer {
 	height: 200px;
 	border: #3882f6 solid 5px;
 	border-radius: 20px;
+	flex-shrink: 0;
 }
 
 .description {
 	display: flex;
 	flex-direction: row;
 	gap: 60px;
+	justify-content: center;
 }
 .description p {
 	width: 200px;
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 150px;
+	flex-shrink: 0;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.quote1 {
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+	padding: 100px 200px 0;
+}
+.quote2 {
+	text-align: end;
+	padding: 0 200px 200px;
+	font-weight: bolder;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+}
+
+.signup {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+	margin: 100px 150px;
+	border-radius: 10px;
+}
+.signup a {
+	border: white solid;
+	border-radius: 10px;
+	background-color: #3882f6;
+	color: #f9faf8;
+	padding: 5px 30px;
+	font-weight: bold;
+	align-content: center;
+}
+
+.bold {
+	font-weight: bolder;
+	font-size: x-large;
 }
